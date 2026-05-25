@@ -54,7 +54,6 @@ class Program
                 
                 case "2":
                     Console.WriteLine("Gruppbilljet: Ange antal personer");
-                    programRunning = false;
                     break;
 
 

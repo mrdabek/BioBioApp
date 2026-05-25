@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BioBioApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee00dd735242bfca3130b18415c5d7ba4f5991fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17f9bb4f2e3b47c743c1f3b1be86bcc2b4114ee6")]
 [assembly: System.Reflection.AssemblyProductAttribute("BioBioApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BioBioApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
