@@ -5,7 +5,6 @@ class Program
     static void Main(string[] args)
     {
         bool programRunning = true;
-        // I set bool variable to define if program is runing then while loop to check if this condition is true. 
         
         while (programRunning)
         {
@@ -32,7 +31,6 @@ class Program
                 case "1":
                     HandleSingleTicket();
                     break;
-                    
                 
                 case "2":
                     HandleGroupTicket();
