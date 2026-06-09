@@ -14,7 +14,7 @@ class Program
             Console.WriteLine("Skriv en siffra för att välja funktion.");
             Console.WriteLine("1 - Typ av billjet - Ungdom, Standard, Pensionär. Ange ålder så väljer vi rätt alternativ.");
             Console.WriteLine("2 - Gruppbilljet - Ange ålder och antal personer så räknar vi.");
-            Console.WriteLine("3 - ");
+            Console.WriteLine("3 - Repeat Ten Times");
             Console.WriteLine();
             Console.WriteLine("0 - Avsluta programmet");
             Console.WriteLine();
@@ -34,6 +34,10 @@ class Program
                 
                 case "2":
                     HandleGroupTicket();
+                    break;
+                
+                case "3":
+                    RepeatTenTimes();
                     break;
                 
                 default:
@@ -113,6 +117,16 @@ class Program
             return 90;
         
         return 120;
+    }
+
+    static void RepeatTenTimes()
+    {
+        Console.WriteLine("Ange text: ");
+        string text = Console.ReadLine();
+        for (int i = 1; i <= 10; i++)
+        {
+            Console.Write($"{i}. {text} ");
+        }
     }
     
 }
