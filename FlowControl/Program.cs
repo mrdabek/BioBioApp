@@ -1,5 +1,4 @@
-﻿using BioBioApp.Methods
-namespace BioBioApp;
+﻿namespace BioBioApp;
 
 class Program
 {
